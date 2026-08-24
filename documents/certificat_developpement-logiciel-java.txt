@@ -1,0 +1,140 @@
+
+==================================================
+DOCUMENTATION FORCE-N
+==================================================
+
+TITRE :
+Développement logiciel Java | FORCE-N
+
+URL :
+http://www.force-n.sn/certificat/developpement-logiciel-java
+
+DATE DE COLLECTE :
+2026-08-14T21:53:09.275143
+
+HASH :
+ce55cdcfafa3fc0f9e84bff1c0ff1ff6229827c03b750c600a8c9331295a2326
+
+==================================================
+CONTENU
+==================================================
+
+Navigation secondaire
+Accéder à notre plateforme FODE
+Alumni
+French
+English
+Fil d'Ariane
+Accueil
+Navigation principale
+A propos
+Qui sommes-nous ?
+Missions et objectfis
+Les services de FORCE-N
+Les partenaires
+FAQ
+Formations
+Catalogue
+Webinaires
+SIGUI
+Parcours initiatique
+Opportunités
+Vous êtes entreprise ?
+Vous êtes entrepreneur ?
+Promotion des sciences
+Actualités
+Se préinscrire
+Formations
+Développement logiciel Java
+Objectifs (général et spécifiques)
+Le Certificat Développement Logiciel JAVA constitue une formation pratique et professionnelle permettant la validation de compétences en développement logiciel.
+A l’issue du programme, les treize (13) compétences suivantes seront acquises par les apprenants :
+Concevoir un composant logiciel en langage Java
+Implémenter un composant logiciel en langage Java
+Implémenter une interface graphique utilisateur avec le framework Angular
+Développer un composant JEE
+Étudier les opportunités et la faisabilité technologique de l’application
+Concevoir une architecture logicielle
+Élaborer et implémenter des cas et des scenarii de tests pour des composants, frameworks et applications Java / JEE / Angular
+Documenter des composants, frameworks et applications Java / JEE / Angular
+Déployer des composants, frameworks et application Java / JEE / Angular selon une approche DevOps
+Expliquer et communiquer au client sur la conception / le développement / l’application
+Utiliser et mettre à jour les modèles de données
+Coopérer avec les équipes métiers, de développement, de conception d’application et de designer UX/UI
+Comprendre et savoir appliquer les principes agiles
+Description et/ou agencement du programme
+Le certificat en développement logiciel JAVA est délivré selon un format hybride. La formation mixera notamment (i) un parcours de formation en ligne, (ii), un séjour au sein d’une entreprise partenaire (qui donnera à l’apprenant l’occasion de travailler sur de vrais projets d’entreprises) et/ou la participation à un projet collaboratif (en relation donc avec d’autres apprenants), (iii) des rencontres en présentiel (bootcamps, etc.).
+Public cible
+Tout jeune (entre 18 et 35 ans), motivé, et souhaitant d’une part disposer d’une formation autour du développement logiciel en JAVA et d’autre part bénéficier de grandes opportunités d’insertion professionnelle.
+Les candidatures féminines sont vivement encouragées.
+Liste (indicative) des modules
+ACOO
+Algorithmique
+Java Standard Edition (JSE)
+GOF
+SQL/noSQL
+J2E
+SOA
+UX/UI
+JScript
+Angular
+Agile
+ALM
+DevOps
+Modalités pédagogiques
+Approche basée sur les compétences (APC)
+Apprentissage en ligne
+Activités en présentiel : bootcamps, etc.
+Immersion en entreprise
+Apprentissage en mode projets
+Apprentissage collaboratif (peer review)
+Mentorat
+Activités complémentaires d’animation pédagogique : webinaires, meet up, masterclass, visites d’entreprises, etc.
+Modalités d'évaluation
+Les apprenants seront évalués sur les modalités suivantes :
+Tests en ligne
+Examens
+Projets
+Conditions d'admission
+Dossier de candidature à soumettre en ligne. Au besoin, des entretiens ou des tests de sélection seront organisés.
+Pré-requis
+Le certificat de compétences en Développement Logiciel - JAVA cible tout particulièrement les candidats qui satisfont les pré-requis suivants :
+bon niveau en algorithmique,
+bonne maîtrise de Java,
+connaissance d’un langage objet,
+connaissance avancée Windows & Linux et des outils associés.
+Matériel
+Avoir accès à un ordinateur.
+Disposer d’une connexion internet.
+Conditions financières
+Formation 100% gratuite.
+Demande d'information
+Pour toute demande d’information, envoyer un mail à l’adresse suivante :
+devlogiciel.java@unchk.edu.sn
+Se pré-inscrire
+Accéder à la plateforme
+Inscrivez-vous à la newsletter !
+Rejoignez notre communauté.
+Actualités, opportunités.
+Se pré-inscrire
+© 2024 Copyright –  Tous droits réservés  FORCE-N
+Footer menu
+A propos
+Actualités
+Carrières
+Alumni
+Webinaires
+Footer menu 2
+Mentions légales
+Politique de cookies
+Offres
+Formulaire de candidature
+Veuillez fournir votre adresse email.
+NB
+: Ces offres sont réservées aux apprenants du programme
+FORCE-N
+.
+Si vous n'en faites pas encore partie, nous vous invitons à vous
+s'incrire
+.
+Envoyer

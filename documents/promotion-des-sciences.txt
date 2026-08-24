@@ -1,0 +1,126 @@
+
+==================================================
+DOCUMENTATION FORCE-N
+==================================================
+
+TITRE :
+Activités de promotion scientifique
+
+URL :
+http://www.force-n.sn/promotion-des-sciences?page=0
+
+DATE DE COLLECTE :
+2026-08-14T21:54:26.709172
+
+HASH :
+3d650abef8a13cdba798b87e7d485010320e2f07c538bff4c1027ae961a72d88
+
+==================================================
+CONTENU
+==================================================
+
+Navigation secondaire
+Accéder à notre plateforme FODE
+Alumni
+French
+English
+Fil d'Ariane
+Accueil
+Navigation principale
+A propos
+Qui sommes-nous ?
+Missions et objectfis
+Les services de FORCE-N
+Les partenaires
+FAQ
+Formations
+Catalogue
+Webinaires
+SIGUI
+Parcours initiatique
+Opportunités
+Vous êtes entreprise ?
+Vous êtes entrepreneur ?
+Promotion des sciences
+Actualités
+Se préinscrire
+Activités de promotion scientifique
+Découvrir
+Promotion des sciences
+[[[Illustration:image==https://preprod2.force-n.sn/sites/default/files/2025-07/sld-3.jpg]]]
+Le programme
+FORCE-N
+fait la promotion des sciences à travers sa composante STEMD.
+La composante STEMD, pour Sciences, Technologies, Mathématiques et Numérique, vise à développer la culture scientifique chez les collégiens et lycéens. En semant l’envie d’apprendre les sciences chez les élèves, elle agit en amont de FCC et AIPEN.
+La composante STEMD, pour Sciences, Technologies, Mathématiques et Numérique, vise à développer la culture scientifique chez les collégiens et lycéens. En semant l’envie d’apprendre les sciences chez les élèves, elle agit en amont de FCC et AIPEN.
+STEMD vise à initier
+400.000
+collégiens et lycéens et à sensibiliser
+85.000
+aux Sciences, Technologies et Mathématiques. Pour ce faire, elle a mis en place une plateforme avec
+30
+cours de référence en SB et souhaite organiser
+185
+activités de promotion des STEM.
+La plateforme en ligne contient des cours interactifs et des ressources pédagogiques. Elle a un contenu ciblé pour les séries S1/S3 en sciences fondamentales et numérique, accessible gratuitement avec ou sans connexion.
+Au nombre des activités, on compte :
+Des formations et animations en programmation visuelle, Robotique, RV, Impression 3D et Astronomie.
+Des conférences sur des thèmes en rapport avec les sciences, le numérique ou l'astronomie sont organisées dans des lycées, collèges, les ENO.
+Des compétitions dont la phase finale se tient à la SNSN. En 2024 la SNSN n’a pas pu se tenir.
+Des ateliers d’animation sur l’astronomie et les sciences émergentes comme la réalité virtuelle, la modélisation 3D, la robotique et Scratch.
+Par ailleurs, STEMD octroie à tous les élèves en classe de première et terminale S1 et S3 un ordinateur portable et une clé de connexion à Internet. Ces élèves, ambassadeurs STEM, reçoivent une formation en Linux et en Python.
+[[[CTA:accroche==Visitez la plateforme STEM-D,libelle==Visiter,lien==https://sciences.force-n.sn/]]]
+Notre impact en 2 ans
+0
+Collégiens suivant au moins un cours de base
+0
+Lycéens fréquentant au moins un cours de base
+0
+Etudiants et élèves participant à des activités de promotion de la culture scientifique
+Actualités
+Concours général 2026 : FORCE-N accompagne la 60e édition de la fête de l'excellence
+Mathématiques : record de médailles pour le Sénégal aux Olympiades Francophones 2026
+Pi Day 2026 : FORCE-N, la FASTEF et Teranga Math réunissent lycéens et collégiens autour des mathématiques
+Le MCTN et FORCE-N ont co-organisé la Grande Finale Nationale du Robotics for Good Youth Challenge Chapitre Sénégal
+Le MCTN et FORCE-N lancent le chapitre national du concours international Robotics for Good Youth Challenge
+Pagination
+Page 1
+Page suivante
+››
+Voir plus
+Nos événements
+Concours général 2026 : FORCE-N accompagne la 60e édition de la fête de l'excellence
+Comité de pilotage 2026 : Après 4 ans de mise en œuvre, FORCE-N dépasse la plupart de ses objectifs initiaux
+L’USSEIN, l'UN-CHK à travers FORCE-N et la Ville de Kaolack lancent la 2e édition du Forum des métiers
+Territorialisation : FORCE-N sonde les besoins de Ziguinchor et Kolda en formation et entrepreneuriat numérique
+Mathématiques : record de médailles pour le Sénégal aux Olympiades Francophones 2026
+Pagination
+Page 1
+Page suivante
+››
+Voir plus
+Inscrivez-vous à la newsletter !
+Rejoignez notre communauté.
+Actualités, opportunités.
+Se pré-inscrire
+© 2024 Copyright –  Tous droits réservés  FORCE-N
+Footer menu
+A propos
+Actualités
+Carrières
+Alumni
+Webinaires
+Footer menu 2
+Mentions légales
+Politique de cookies
+Offres
+Formulaire de candidature
+Veuillez fournir votre adresse email.
+NB
+: Ces offres sont réservées aux apprenants du programme
+FORCE-N
+.
+Si vous n'en faites pas encore partie, nous vous invitons à vous
+s'incrire
+.
+Envoyer

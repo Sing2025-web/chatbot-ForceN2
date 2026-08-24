@@ -1,0 +1,191 @@
+
+==================================================
+DOCUMENTATION FORCE-N
+==================================================
+
+TITRE :
+Présentation du programme FORCE-N
+
+URL :
+http://www.force-n.sn/a-propos
+
+DATE DE COLLECTE :
+2026-08-14T21:35:48.140614
+
+HASH :
+a46261a33ab34df9ef84b34717c0569c0484522b33f7a60aa66f451b0cfbd4ef
+
+==================================================
+CONTENU
+==================================================
+
+Navigation secondaire
+Accéder à notre plateforme FODE
+Alumni
+French
+English
+Fil d'Ariane
+Accueil
+Navigation principale
+A propos
+Qui sommes-nous ?
+Missions et objectfis
+Les services de FORCE-N
+Les partenaires
+FAQ
+Formations
+Catalogue
+Webinaires
+SIGUI
+Parcours initiatique
+Opportunités
+Vous êtes entreprise ?
+Vous êtes entrepreneur ?
+Promotion des sciences
+Actualités
+Se préinscrire
+Présentation du programme FORCE-N
+Rejoindre le programme
+A propos
+FORCE-N (Formations Ouvertes pour le Renforcement des Compétences, de l'Emploi et de l'Entrepreneuriat dans le Numérique) est un programme porté par l'Université numérique Cheikh Hamidou Kane (UN-CHK) et la Fondation Mastercard.
+Piloté par l’
+UN-CHK
+en partenariat avec la
+Mastercard Fondation
+.
+FORCE-N
+Piloté par l’UN-CHK en partenariat avec la Mastercard Fondation
+Mastercard Foundation
+La Fondation Mastercard est une organisation philanthropique privée qui œuvre pour l’inclusion financière et l’accès équitable à l’emploi, notamment en Afrique. Elle travaille avec des organisations visionnaires pour permettre aux jeunes d'Afrique et aux communautés indigènes du Canada d'accéder à un travail digne, significatif et épanouissant. La Fondation a des bureaux à Toronto, Kigali, Accra, Nairobi, Kampala, Lagos, Dakar et Addis-Abeba.
+Visiter
+UNCHK
+L’Université numérique Cheikh Hamidou KANE (UN-CHK,ex UVS) est la première université numérique publique du Sénégal et de l’Afrique de l’Ouest. Créée en 2013, elle s’engage à élargir l’accès à un enseignement supérieur de qualité à tous, à travers notamment des plateformes numériques et ENO et des programmes flexibles. L’université porte le nom de Cheikh Hamidou Kane, grand commis de l’Etat, homme de lettres réputé et citoyen engagé.
+Visiter
+Qui-sommes nous ?
+Missions et objectifs
+Les services
+Chiffres-clés
+125214
+Nombre de jeunes en emploi par le biais de la certification
+140718
+Nombre de jeunes mis en contact pour un emploi
+8241
+Nombre de jeunes formés à l'entrepreneuriat
+2149
+Nombre d'emplois créés par les startups soutenues
+30
+Nombre de cours de sciences fondamentales numérisés pour les collèges et les lycées
+110679
+Nombre de collégiens suivant au moins un cours de base
+118434
+Nombre de lycéens fréquentant au moins un cours de base
+275
+Nombre d'activités organisées pour promouvoir la culture scientifique
+239485
+Nombre d'étudiants et d'élèves participant à des activités de promotion de la culture scientifique
+1828
+Projets financés
+102814
+Nombre total de jeunes certifiés
+39
+Certifications disponibles adaptées aux besoins du marché
+Voir plus
+Questions fréquentes
++
+Quelles sont les conditions requises pour participer au programme d'accompagnement ?
+Pour bénéficier du programme d’accompagnement de FORCE-N (parcours Sigui, AIPEN), les conditions suivantes doivent être remplies :
+Être âgé(e) de moins de 36 ans au moment de l’inscription.
+Avoir suivi ou être inscrit(e) à une formation certifiante FCC (Formations et Certifications de Compétences).
+Être disponible et engagé(e) dans une démarche active de recherche d’emploi ou de création d’entreprise.
+Remplir le formulaire d’adhésion et participer aux sessions de coaching et d’orientation proposées.
+La priorité est accordée aux jeunes femmes, conformément aux objectifs d’inclusion du programme.
++
+Quelles sont les familles de métiers pris en charge par FORCE-N ?
+Les familles de formations proposées par FCC sont :
+Développement logiciel
+(Développement logiciel JAVA, Développement logiciel PHP, Développement logiciel PYTHON, Développement logiciel Front end, Développement mobile, Low code No code, UX – UI)
+Intelligence artificielle et data
+(Intelligence artificielle – traitement du langage naturel (NLP) & vision assistée par ordinateur, Intelligence artificielle – Large Language Models (LLMs), Data engineering, Data Analysis, Traitement de données (Niveau 2, avancé)
+E-business,
+(Commerce digital, Marketing digital, Entrepreneuriat numérique, Téléservices)
+Technologies émergentes et cybersécurité
+(Web3, Cybersécurité, Pilotage de drones, iOT)
+Acculturation au numérique
+(Informatique et Internet (C2i), Intelligence artificielle pour tous, Traitement de données (Niveau 1, débutant), Broderie Numérique)
+Création de contenus audiovisuels et animés
+(Montage vidéo, Écriture de scénarios, Dessin digital, Modélisation 3D, Animation 2D-3D, Prise de son et sound design, infographie).
++
+Quel est l'accompagnement offert par FORCE-N ?
+FORCE-N propose un accompagnement global et personnalisé à chaque étape du parcours du jeune bénéficiaire, à travers ses trois composantes complémentaires :
+Pendant la formation (FCC)
+Accès à la plateforme FODE pour se former en ligne à son rythme
+Accompagnement pédagogique par des tuteurs
+Ressources interactives, évaluations, certificats reconnus
+Vers l’insertion professionnelle (AIPEN)
+Élaboration du projet personnel et professionnel (PPP)
+Formation aux soft skills et techniques de recherche d’emploi
+Ateliers CV, simulations d’entretien, coaching individuel
+Accès à des plateformes d’emploi, salons, forums et dispositifs comme Recrut’Elles
+Pour les porteurs de projet
+Formations à l’entrepreneuriat numérique
+Coaching personnalisé pour développer un business model
+Appui technique et financier (fonds d’amorçage)
+Intégration dans les incubateurs FORCE-N / FabLabs
+Le tout est structuré dans le parcours Sigui, un itinéraire d’accompagnement en 5 étapes vers l’emploi ou l’auto-emploi.
++
+Le programme FORCE-N est-il fait pour moi ?
+Oui, si…
+Tu as moins de 36 ans
+Tu es jeune diplômé(e), sans diplôme ou en reconversion professionnelle
+Tu veux apprendre un métier du numérique ou améliorer tes compétences
+Tu recherches un emploi, un stage ou un accompagnement entrepreneurial
+Tu es motivé(e) à suivre une formation en ligne et à t’engager dans ton avenir
+Que tu sois débutant(e), curieux(se), ou déjà expérimenté(e), FORCE-N t’offre une opportunité unique de te former gratuitement, de te faire accompagner, et de bâtir ton avenir professionnel dans le numérique.
+Le programme accorde une priorité aux jeunes femmes pour favoriser l’égalité d’accès aux métiers du digital.
+Partenaires
+Notre objectif c’est de vous accompagner vers la voie de la réussite  scolaire et  professionnelle avec  nos partenaires qui sont là également pour l’atteinte de cet objectif.
+Young Africa Works
+Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem.
+Visiter
+3FPT
+Durit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.
+Visiter
+ADEPME
+Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Visiter
+DER
+Ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.
+Visiter
+Sénégal émergent
+Visiter
+Mastercard Foundation
+La Fondation Mastercard est une organisation philanthropique privée qui œuvre pour l’inclusion financière et l’accès équitable à l’emploi, notamment en Afrique. Elle travaille avec des organisations visionnaires pour permettre aux jeunes d'Afrique et aux communautés indigènes du Canada d'accéder à un travail digne, significatif et épanouissant. La Fondation a des bureaux à Toronto, Kigali, Accra, Nairobi, Kampala, Lagos, Dakar et Addis-Abeba.
+Visiter
+UNCHK
+L’Université numérique Cheikh Hamidou KANE (UN-CHK,ex UVS) est la première université numérique publique du Sénégal et de l’Afrique de l’Ouest. Créée en 2013, elle s’engage à élargir l’accès à un enseignement supérieur de qualité à tous, à travers notamment des plateformes numériques et ENO et des programmes flexibles. L’université porte le nom de Cheikh Hamidou Kane, grand commis de l’Etat, homme de lettres réputé et citoyen engagé.
+Visiter
+Inscrivez-vous à la newsletter !
+Rejoignez notre communauté.
+Actualités, opportunités.
+Se pré-inscrire
+© 2024 Copyright –  Tous droits réservés  FORCE-N
+Footer menu
+A propos
+Actualités
+Carrières
+Alumni
+Webinaires
+Footer menu 2
+Mentions légales
+Politique de cookies
+Offres
+Formulaire de candidature
+Veuillez fournir votre adresse email.
+NB
+: Ces offres sont réservées aux apprenants du programme
+FORCE-N
+.
+Si vous n'en faites pas encore partie, nous vous invitons à vous
+s'incrire
+.
+Envoyer
