@@ -43,7 +43,7 @@ client = Mistral(
 )
 
 # Define the path for ChromaDB - Changed to /tmp/chroma_db
-chroma_db_path = "C:/Users/HP/Desktop/chatbot ForceN/chroma_db"
+chroma_db_path = "chroma_db"
 
 # Ensure the directory for ChromaDB is clean before initialization
 # This helps in avoiding 'no such table' errors if the database was corrupted
@@ -117,7 +117,7 @@ def embedding(text):
 """# **Ajouter chaque chunk dans ChromaDB**"""
 
 #chemin du document qui contient les fichier
-folder = "C:/Users/HP/Desktop/chatbot ForceN/documents"
+folder = "documents"
 
 #parcourir les fichier
 for filename in os.listdir(folder):
@@ -360,7 +360,7 @@ def ask_mistral(question,emailDest):
 
     SYSTEME=""
     while SYSTEME=="":
-      with open("C:/Users/HP/Desktop/chatbot ForceN/prompt_system.txt", "r", encoding=encodage) as f:
+      with open("prompt_system.txt", "r", encoding=encodage) as f:
           SYSTEME = f.read()
           if SYSTEME:
            continue
