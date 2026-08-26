@@ -210,11 +210,11 @@ def envoyer_email(question_user, emailD=""):
     try:
         # Récupération des secrets
         email_expediteur = os.environ["mon_email"]
-        email_password = os.environ["SMTP_password_app_gmail"]
+        brevo_api_key = os.environ["api_key_brevo"]
         email_destinataire = emailD.strip() or os.environ["dest_email"]
 
         # Gestion de la question
-        if not question_user or not question_user.strip():
+        if not question_user or not question_user.strip(): 
             question_user = "Aucune question posée"
 
         # Date et heure
@@ -223,52 +223,68 @@ def envoyer_email(question_user, emailD=""):
         date = maintenant.strftime("%d/%m/%Y")
         heure = maintenant.strftime("%H:%M:%S")
 
-        # Création du message
-        message = MIMEMultipart()
 
-        message["From"] = email_expediteur
-        message["To"] = email_destinataire
-        message["Subject"] = "🚨 Nouveau utilisateur sur le chatbot Force-N"
-
-        # Contenu
         texte = f"""
-Bonjour,
+            Bonjour,
 
-Le système de surveillance du chatbot Force-N a détecté une nouvelle utilisation.
+            Le système de surveillance du chatbot Force-N a détecté une nouvelle utilisation.
 
-Date : {date}
-Heure : {heure}
+            Date : {date}
+            Heure : {heure}
 
-Question posée :
-{question_user}
+            Question posée :
+            {question_user}
 
-Cordialement,
+            Cordialement,
 
-Système automatique de surveillance
-Chatbot Force-N
-"""
+            Système automatique de surveillance
+            Chatbot Force-N
+        """
 
-        message.attach(
-            MIMEText(texte, "plain", "utf-8")
+
+        # Création du message
+        # ==============================
+        # DONNÉES POUR BREVO
+        # ==============================
+
+        data = {
+            "sender": {
+                "name": "Force-N Chatbot",
+                "email": email_expediteur
+            },
+
+            "to": [
+                {
+                    "email": email_destinataire
+                }
+            ],
+
+            "subject": "🚨 Nouveau utilisateur sur le chatbot Force-N",
+
+            "textContent": texte
+        }
+
+
+        # ==============================
+        # TRAITEMENT DE LA RÉPONSE
+        # ==============================
+
+        headers = {
+                "accept": "application/json",
+                "api-key": brevo_api_key,
+                "content-type": "application/json"
+            }
+        
+        response = requests.post(
+            "https://api.brevo.com/v3/smtp/email",
+            headers=headers,
+            json=data
         )
-
-        # Connexion Gmail
-        with smtplib.SMTP("smtp.gmail.com", 587) as serveur:
-
-            serveur.starttls()
-
-            serveur.login(
-                email_expediteur,
-                email_password
-            )
-
-            serveur.sendmail(
-                email_expediteur,
-                email_destinataire,
-                message.as_string()
-            )
-
-        return "📧 E-mail envoyé avec succès !"
+    
+        if response.status_code in [200,201,202]:
+            return f"📧 E-mail envoyé avec succès"
+    
+        return f"❌ Erreur Brevo : {response.status_code} - {response.text}"
 
     except KeyError as erreur:
 
@@ -456,7 +472,8 @@ with gr.Blocks(css=css, title="FORCE-N!!!!!", elem_classes="tout") as demo1: # T
         
 
     with gr.Row():
-        with gr.Column(scale=1):
+        with gr.Sidebar(open=False):
+            gr.Markdown("## 📋 Historiques")
             Text_his = gr.Textbox(lines=15, label="Historiques")
 
             bt_efface_his = gr.Button("Effacer historiques", variant="primary", size="lg")
