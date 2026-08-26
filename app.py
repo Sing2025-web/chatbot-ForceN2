@@ -30,7 +30,14 @@ from email.mime.text import MIMEText
 # Permet de construire l'en-tête de l'e-mail
 from email.mime.multipart import MIMEMultipart
 from numpy import asarray_chkfinite
+"""
+import spaces
 
+@spaces.GPU
+def generate_prediction(inputs):
+    # Votre code d'inférence ici
+    return output
+"""
 historiques=[]
 historiques_tempo=[]
 
@@ -198,99 +205,88 @@ def recherche(question):
 # CONFIGURATION DE L'EMAIL
 # ==============================
 
-def envoyer_email(question_user,emailD):
-    # Adresse du site à surveiller
-    URL = "https://force-n.sn/actualites"
-    # Adresse Gmail qui va envoyer l'e-mail
-    EMAIL_EXPEDITEUR = os.environ["mon_email"]
-
-    # Mot de passe d'application Gmail
-    EMAIL_PASSWORD = os.environ["SMTP_password_app_gmail"] #""      
-
-    # Adresse qui recevra l'alerte
-    if emailD == "":
-      EMAIL_DESTINATAIRE = os.environ["dest_email"]
-    else:
-      EMAIL_DESTINATAIRE = emailD   
-
-    #gestion de la question
-    if question_user == "":
-      question_user = "aucune qestion pauser"
-
-    # Création du message
-    message = MIMEMultipart()
-
-    # Adresse de l'expéditeur
-    message["From"] = EMAIL_EXPEDITEUR
-
-    # Adresse du destinataire
-    message["To"] = EMAIL_DESTINATAIRE
-
-    # Objet de l'e-mail
-    message["Subject"] = "🚨 Nouveau utilisateur sur chat bot Force-N"
-
-    #récupérons la date
-    maintenant = datetime.datetime.now()
-    aujourdui = datetime.datetime.today()
-    heure = maintenant.hour
-    minute = maintenant.minute
-    seconde = maintenant.second
-
-    #récupérer le lieu
-    data = requests.get("https://ipinfo.io/json").json()
-
-    # Contenu du message
-    texte = f"""
-    Bonjour,
-    Le programme de surveillance a détecté un nouveau utilisateur.
-
-    Un utilisateur viens d'utiliser chat bot Force-N le \n
-
-    date : {aujourdui.strftime("%d/%m/%Y")}\n
-    heure : {heure}h{minute}mn{seconde}s \n
-    ville : {data.get("city")} \n
-    pays : {data.get("country")} \n
-    coordonnées : {data.get("loc")} \n
-
-    il a pausé les questions suivantes :\n{question_user}
-
-    Cordialement,\n
-    Système automatique de surveillance\n
-    """
-
-    # Ajout du texte dans l'e-mail
-    message.attach(MIMEText(texte, "plain", "utf-8"))
+def envoyer_email(question_user, emailD=""):
 
     try:
+        # Récupération des secrets
+        email_expediteur = os.environ["mon_email"]
+        email_password = os.environ["SMTP_password_app_gmail"]
+        email_destinataire = emailD.strip() or os.environ["dest_email"]
 
-        # Connexion au serveur SMTP de Gmail
-        serveur = smtplib.SMTP("smtp.gmail.com", 587)
+        # Gestion de la question
+        if not question_user or not question_user.strip():
+            question_user = "Aucune question posée"
 
-        # Active le chiffrement TLS
-        serveur.starttls()
+        # Date et heure
+        maintenant = datetime.datetime.now()
 
-        # Connexion au compte Gmail
-        serveur.login(
-            EMAIL_EXPEDITEUR,
-            EMAIL_PASSWORD
+        date = maintenant.strftime("%d/%m/%Y")
+        heure = maintenant.strftime("%H:%M:%S")
+
+        # Création du message
+        message = MIMEMultipart()
+
+        message["From"] = email_expediteur
+        message["To"] = email_destinataire
+        message["Subject"] = "🚨 Nouveau utilisateur sur le chatbot Force-N"
+
+        # Contenu
+        texte = f"""
+Bonjour,
+
+Le système de surveillance du chatbot Force-N a détecté une nouvelle utilisation.
+
+Date : {date}
+Heure : {heure}
+
+Question posée :
+{question_user}
+
+Cordialement,
+
+Système automatique de surveillance
+Chatbot Force-N
+"""
+
+        message.attach(
+            MIMEText(texte, "plain", "utf-8")
         )
 
-        # Envoi de l'e-mail
-        serveur.sendmail(
-            EMAIL_EXPEDITEUR,
-            EMAIL_DESTINATAIRE,
-            message.as_string()
-        )
+        # Connexion Gmail
+        with smtplib.SMTP("smtp.gmail.com", 587) as serveur:
 
-        # Fermeture de la connexion
-        serveur.quit()
+            serveur.starttls()
+
+            serveur.login(
+                email_expediteur,
+                email_password
+            )
+
+            serveur.sendmail(
+                email_expediteur,
+                email_destinataire,
+                message.as_string()
+            )
 
         return "📧 E-mail envoyé avec succès !"
 
+    except KeyError as erreur:
+
+        return (
+            f"❌ Variable d'environnement manquante : {erreur}"
+        )
+
+    except smtplib.SMTPException as erreur:
+
+        return (
+            f"❌ Erreur SMTP Gmail : {erreur}"
+        )
+
     except Exception as erreur:
 
-        # Affiche l'erreur en cas de problème
-        return f"❌ Erreur lors de l'envoi :{erreur}"
+        return (
+            f"❌ Erreur lors de l'envoi : {erreur}"
+        )
 
 
 """# **Netoyer TEXTE retouner par mistral**"""
@@ -456,7 +452,7 @@ with gr.Blocks(css=css, title="FORCE-N!!!!!", elem_classes="tout") as demo1: # T
 
     with gr.Column(scale=1):
         with gr.Row(scale=1):
-            gr.Image(value="C:/Users/HP/Documents/Python/LLM/Exam de projet Force-N chatBot/logo.png", show_label=False, container=False, elem_id="logo", width=150, height=100)
+            gr.Image(value="logo.png", show_label=False, container=False, elem_id="logo", width=150, height=100)
         
 
     with gr.Row():
@@ -496,5 +492,5 @@ with gr.Blocks(css=css, title="FORCE-N!!!!!", elem_classes="tout") as demo1: # T
             submit_button.click(ask_mistral, inputs=text_input,show_progress="hidden", outputs=[text_output, question_textbox, email_textbox, Text_his])
 
 
-demo1.launch(theme=gr.themes.Ember(primary_hue="blue"))
+demo1.launch()
 
