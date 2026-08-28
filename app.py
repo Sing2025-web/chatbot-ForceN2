@@ -46,7 +46,7 @@ load_dotenv()
 
 #Créer le client Mistral
 client = Mistral(
-    api_key=os.environ["Mistral_api_key"]
+    api_key=os.environ["Mistral_API_KEY"]
 )
 
 # Define the path for ChromaDB - Changed to /tmp/chroma_db
